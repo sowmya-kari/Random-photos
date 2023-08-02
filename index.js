@@ -1,8 +1,11 @@
 const imagecontainerE1 = document.querySelector(".imagecontainerE1");
 const btnE1 = document.querySelector(".btn");
-btnE1.addEventListener("click", () => { imageNum = 10; addNewImages()});
+btnE1.addEventListener("click", () => { 
+    imageNum = 10; 
+    addNewImages()
+});
 function addNewImages(){
-    for(let index =0; index<array.length;index++){
+    for(let index =0; index<imageNum;index++){
         const element = array[index];
     }
     const newImaE1 = document.createElement("img")
